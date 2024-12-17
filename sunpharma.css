@@ -1,0 +1,231 @@
+ /* Custom Styles */
+ body {
+    font-family: 'Roboto', sans-serif;
+    height: 166rem;
+    width: 100%;
+  }
+
+  .hero-section {
+    background: url(https://sunpharma.com/wp-content/uploads/2024/10/SUN-Website-Career-Banner-1800-x-950-2.jpg) no-repeat center center/cover;
+    height: 400px;
+    color: orange;
+    text-align: left;
+    padding: 90px 0;
+  }
+  .About p 
+  {color: orange;
+    font-size: 23px;
+    margin-top:10px;
+    
+  }
+
+
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+   
+
+  }
+  
+  
+  
+
+
+  .hero-section h1 {
+    font-size: 10px bold;
+    
+
+  }
+  
+    .press{
+        display: inline;
+        height: 30px;
+        width:80%;
+        padding: 20px;
+        margin-left: 10px;
+         top: 100px;
+
+       
+      }
+      .press img{
+        height: 350px;
+        width:500px;
+        padding: 40px;
+        position: absolute;
+        left: 10px;
+        top: 790px;
+    
+      }
+      .release{
+        height: 50px;
+        width: 60%;
+        margin-left: 500px;
+        margin-bottom: 200px;
+    
+      }
+      .youtube{
+        display: flex;
+        justify-content: space-between; /* Space out the content */
+        align-items: center; /* Vertically align items in the center */
+        gap: 15px; /* Add space between the paragraph and video */
+        margin-top: 2px;
+      }
+      
+      .content-left {
+        flex: 1; /* Allow the left content to take as much space as possible */
+        max-width: 50%; /* Optional: limit the width of the text area */
+      }
+      
+      .content-right {
+        flex: 1; /* Allow the video to take available space */
+        max-width: 50%; /* Optional: limit the width of the video area */
+        height: 300px;
+      }
+      
+      iframe {
+        width: 100%; /* Make the video responsive */
+        height: 100%; /* Ensure the height adjusts accordingly */
+        border-radius: 8px; /* Optional: for rounded corners on the video */
+      }
+      
+      .horizontal-navbar{
+        display:flex;
+        width: 84%;
+        
+        justify-content: space-between;
+        margin-left: 100px;
+        align-items: center;
+        font-weight: 700;
+      }
+    
+      .image{
+       margin-top: 100px;
+      }
+      
+      
+  
+
+  .hero-section p {
+    font-size: 30px;
+    font-weight: px;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+#footer {
+    position: relative;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    padding: 5px 50px;
+    
+    background-color: black;}
+
+  .product-card {
+    margin-bottom: 30px;
+  }
+
+  .lastnave{
+    position: relative;
+    background-color:rgb(135 135 134 );
+    height: 330px;
+    width: 100%;
+    display: flex;
+    padding: auto;
+    justify-content:space-evenly;
+  }
+  .lastnave a{
+    color: #f8f9fa;
+    font-size: 12px;
+  }
+  .nav1{
+
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    top: 55px;
+    left: 40px;
+  }
+  
+  .nav2{
+    position: absolute;
+    height: 200px;
+    width: 210px;
+    background-color:none;
+    top: 55px;
+    left: 260px;
+  }
+  .nav3{
+    position: absolute;
+    height: 200px;
+    width: 230px;
+    background-color:none;
+    top: 55px;
+    left: 500px;
+  }
+  .nav4{
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    background-color:none;
+    top: 55px;
+    right:230px;
+  }
+  .nav5{
+
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    background-color:none;
+    top: 55px;
+    right: 10px;
+  }
+  .last{
+    width: 100%;
+    background-color: black;
+     height: 4rem;
+     position: relative;
+
+  }
+  .copy{
+    position: absolute;
+    left:15rem;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 20px;
+    align-content: center;
+  }
+  .privacy{
+    position: absolute;
+    padding:20px ;
+    left:32rem ;
+  }
+
+  /* Hover effect on nav items */
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Hover effect: change color and scale up */
+.navbar-nav .nav-item:hover .nav-link {
+  color: #f39c12; /* Change color on hover */
+  transform: scale(1.1); /* Slightly scale up the link */
+}
+
+/* Active link effect (optional) */
+.navbar-nav .nav-item.active .nav-link {
+  color: #c7766d; /* Change color for active link */
+}
